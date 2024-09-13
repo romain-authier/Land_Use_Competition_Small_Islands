@@ -64,8 +64,8 @@ The land-use competition between these crops, ground-mounted PV, and urban devel
 
 ### Specifications of variables, parameters and scenarios
 
-Specifications of some variables, parameters and scenarios are available in the docs folder through the `specifications.xlsx` file.
-Data sources are also specified in this `specifications.xlsx` file.
+Specifications of some variables, parameters and scenarios are available in the docs file.
+Data sources are also specified in this docs file.
 
 ## Input data 
 
@@ -77,9 +77,9 @@ These include:
 - Potential for electricity production from ground-mounted PV.
 - Potential for urban development.
 
-This map pof potential land uses is available in sub-folder Geographical_data with the input_data folder. 
+This map pof potential land uses is available using the following link https://www.dropbox.com/scl/fo/el772u9l4vuttofsec56d/AJ-Ey4H8otyuKJ0M5lrsS94?rlkey=d88e23nvea2axrcwhv8flwvh7&st=ipmnk930&dl=0. 
 
-Projected data are available in sub-folder Projections_data within the input_data folder.
+Projected data are available in in the input_data file.
 
 ## Usage instructions
 
