@@ -77,7 +77,7 @@ These include:
 - Potential for electricity production from ground-mounted PV.
 - Potential for urban development.
 
-This map pof potential land uses is available using the following link https://www.dropbox.com/scl/fo/8kgc9rmjfmm3d3anjqpxa/AImo126HmB610UhFIHldGXs?rlkey=mt83l9m1smi1idt6qwrzyjfi0&st=o5aezm8h&dl=0. 
+This map of potential land uses is available using the following link https://www.dropbox.com/scl/fo/8kgc9rmjfmm3d3anjqpxa/AImo126HmB610UhFIHldGXs?rlkey=mt83l9m1smi1idt6qwrzyjfi0&st=o5aezm8h&dl=0. 
 
 Projected data are available in in the input_data file.
 
