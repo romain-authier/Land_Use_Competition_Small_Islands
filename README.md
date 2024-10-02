@@ -62,12 +62,9 @@ The land-use competition between these crops, ground-mounted PV, and urban devel
 
 `config.json`: Contains the parameter values used across both the LUC_model and example directories.
 
-### Specifications of variables, parameters and scenarios
+### Specifications of variables, parameters, scenarios and potential land uses
 
-Specifications of some variables, parameters and scenarios are available in the docs file.
-Data sources are also specified in this docs file.
-
-## Input data 
+Specifications of some variables, parameters and scenarios are available in `specifications.xlsx` in the `docs` folder.
 
 The model requires a map of potential land uses at the island scale as input, where each parcel is assigned one or more potential land uses. 
 These include:
@@ -77,10 +74,14 @@ These include:
 - Potential for electricity production from ground-mounted PV.
 - Potential for urban development.
 
-The specifications of constraints for the allocation of potential land uses are provided in the docs file. 
+The specifications of constraints for the allocation of potential land uses are provided in `constraint_specifications.pdf` in the `docs` folder. 
+Data sources are also specified in this docs folder.
+
+## Input data 
+
 This map of potential land uses is available using the following link https://www.dropbox.com/scl/fo/8kgc9rmjfmm3d3anjqpxa/AImo126HmB610UhFIHldGXs?rlkey=mt83l9m1smi1idt6qwrzyjfi0&st=o5aezm8h&dl=0. 
 
-Projected data are available in the input_data file.
+Projected data are available in the `input_data` folder.
 
 ## Usage instructions
 
