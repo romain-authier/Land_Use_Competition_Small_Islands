@@ -7,13 +7,11 @@ We consider an annual time step.
 
 The model utilizes the Pyomo library (Python Optimization Modeling Objects) to solve linear optimization problems. The optimization solver GLPK is used to address these linear constraints.
 
-This model captures land-use competition between two food crops, ground-mounted photovoltaics (PV), and urban development in small island territories. It is particularly tailored for regions 
+This model captures land use competition between two food crops, ground-mounted photovoltaics (PV), and urban development in small island territories by defining potential land uses for each parcel. It is particularly tailored for regions 
 where a significant portion of agricultural land is dedicated to export crops. In such regions, we consider that these export-oriented agricultural lands may be converted to other uses, including food production, electricity production, or urban development.
 
 
-
-The generic model can be found in the LUC_model directory, while the example directory contains a specific application 
-of the model to Reunion Island.
+The generic model can be found in the LUC_model directory, while the example directory contains a specific application of the model to Reunion Island.
 
 
 ### LUC_model Directory
@@ -40,7 +38,14 @@ converted from potential to effective food production for each time step.
 ### Example directory
 
 This folder contains a case study applied to Reunion Island, considering three major crops (rice, fruits, and vegetables). 
-The land-use competition between these crops, ground-mounted PV, and urban development is modeled, with the assumption that fruits and vegetables are cultivated within the same areas. 
+In the case of Reunion, we define the following potential land uses:
+
+- Potential for rice production.
+- Potential for fruit and vegetable production.
+- Potential for electricity production from ground-mounted PV.
+- Potential for urban development.
+
+The land use competition between these potential land uses is modeled, with the assumption that fruits and vegetables are cultivated within the same areas. 
 
 `scenarios_constraints.py`: Defines optional constraints that can be activated depending on the scenario being constructed, including dietary behaviors, energy production from various energy sources, and urban development dynamics.
 
@@ -64,22 +69,13 @@ The land-use competition between these crops, ground-mounted PV, and urban devel
 
 ### Specifications of variables, parameters, scenarios and potential land uses
 
-Specifications of some variables, parameters and scenarios are available in `specifications.xlsx` in the `docs` folder.
+The specifications of some variables, parameters and scenarios are available in `specifications.xlsx` in the `docs` folder.
 
-The model requires a map of potential land uses at the island scale as input, where each parcel is assigned one or more potential land uses. 
-These include:
-
-- Potential for rice production
-- Potential for fruit and vegetable production
-- Potential for electricity production from ground-mounted PV.
-- Potential for urban development.
-
-The specifications of constraints for the allocation of potential land uses are provided in `constraint_specifications.pdf` in the `docs` folder. 
-Data sources are also specified in this docs folder.
+The specifications of constraints for the allocation of potential land uses for each parcel are provided in `constraint_specifications.pdf` in the `docs` folder. 
 
 ## Input data 
 
-This map of potential land uses is available using the following link https://www.dropbox.com/scl/fo/8kgc9rmjfmm3d3anjqpxa/AImo126HmB610UhFIHldGXs?rlkey=mt83l9m1smi1idt6qwrzyjfi0&st=o5aezm8h&dl=0. 
+The map of potential land uses for each parcel is available using the following link https://www.dropbox.com/scl/fo/8kgc9rmjfmm3d3anjqpxa/AImo126HmB610UhFIHldGXs?rlkey=mt83l9m1smi1idt6qwrzyjfi0&st=o5aezm8h&dl=0. 
 
 Projected data are available in the `input_data` folder.
 
